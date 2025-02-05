@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3F8267A-06FB-447D-A0F6-1A9678BB3BDD}"
 	ProjectSection(SolutionItems) = preProject
 		compose.yaml = compose.yaml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApp.Models", "MessagingApp.Models\MessagingApp.Models.csproj", "{7B87B7CE-DEAE-4A92-8967-EF4DEBAA35B1}"

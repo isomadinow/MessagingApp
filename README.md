@@ -50,46 +50,6 @@ GET http://localhost:5050/health
 - **Repository** — доступ к данным (PostgreSQL).
 - **Model** — модели данных (Message, DTO и т.д.).
 
-## **Конфигурация**
-
-### **Docker Compose**
-
-Пример конфигурации для **Docker Compose**:
-
-```yaml
-version: '3.8'
-
-services:
-  db:
-    image: postgres:17.2
-    container_name: messaging_db
-    environment:
-      POSTGRES_USER: messaging_user
-      POSTGRES_PASSWORD: messaging_pass
-      POSTGRES_DB: messaging_db
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-    ports:
-      - "5433:5432"
-
-  api:
-    build:
-      context: .
-      dockerfile: MessagingApp.API/Dockerfile
-    container_name: messaging_api
-    depends_on:
-      db:
-        condition: service_healthy
-    environment:
-      ASPNETCORE_ENVIRONMENT: Production
-      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=messaging_db;Username=messaging_user;Password=messaging_pass"
-    ports:
-      - "5050:5050"
-
-volumes:
-  pgdata:
-```
-
 ## **API**
 
 1. **Создание сообщения (POST)**:
