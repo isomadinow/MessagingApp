@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3F8267A-06FB-447D-A0F6-1A9678BB3BDD}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApp.Models", "MessagingApp.Models\MessagingApp.Models.csproj", "{7B87B7CE-DEAE-4A92-8967-EF4DEBAA35B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApp.DAL", "MessagingApp.DAL\MessagingApp.DAL.csproj", "{31CD2AE8-5803-498C-8ECB-529C51699C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApp.API", "MessagingApp.API\MessagingApp.API.csproj", "{89595EA3-65E3-42B5-A4E2-6005A18405C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApp.Services", "MessagingApp.Services\MessagingApp.Services.csproj", "{18426056-66E3-47D2-A2F0-015A27408B27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B87B7CE-DEAE-4A92-8967-EF4DEBAA35B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B87B7CE-DEAE-4A92-8967-EF4DEBAA35B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B87B7CE-DEAE-4A92-8967-EF4DEBAA35B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B87B7CE-DEAE-4A92-8967-EF4DEBAA35B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CD2AE8-5803-498C-8ECB-529C51699C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CD2AE8-5803-498C-8ECB-529C51699C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CD2AE8-5803-498C-8ECB-529C51699C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CD2AE8-5803-498C-8ECB-529C51699C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89595EA3-65E3-42B5-A4E2-6005A18405C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89595EA3-65E3-42B5-A4E2-6005A18405C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89595EA3-65E3-42B5-A4E2-6005A18405C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89595EA3-65E3-42B5-A4E2-6005A18405C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18426056-66E3-47D2-A2F0-015A27408B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18426056-66E3-47D2-A2F0-015A27408B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18426056-66E3-47D2-A2F0-015A27408B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18426056-66E3-47D2-A2F0-015A27408B27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
