@@ -24,7 +24,7 @@ docker-compose up --build
 После запуска приложения откройте Swagger UI для тестирования API:
 
 ```
-http://localhost:5050/swagger
+http://localhost:5050/swagger/index.html
 ```
 
 ### 4. **WebSocket**
