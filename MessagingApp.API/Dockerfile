@@ -14,6 +14,7 @@ WORKDIR /src
 COPY ["MessagingApp.API/MessagingApp.API.csproj", "MessagingApp.API/"]
 COPY ["MessagingApp.DAL/MessagingApp.DAL.csproj", "MessagingApp.DAL/"]
 COPY ["MessagingApp.Models/MessagingApp.Models.csproj", "MessagingApp.Models/"]
+COPY ["MessagingApp.Services/MessagingApp.Services.csproj", "MessagingApp.Services/"]
 RUN dotnet restore "MessagingApp.API/MessagingApp.API.csproj"
 
 COPY . .  
